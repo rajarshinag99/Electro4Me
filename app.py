@@ -15,7 +15,7 @@ def contact():
     return render_template('contact.html')
 
 @app.route('/products')
-def contact():
+def products():
     return render_template('products.html')
 
 if __name__ == '__main__':
